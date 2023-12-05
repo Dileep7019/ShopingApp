@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+xmlns:listview="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
+xmlns:progressBar="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopingApp.View.LaptopPage"
+             xmlns:local="clr-namespace:ShopingApp.ViewModel"
+             Title="LaptopPage">
+    <ContentPage.BindingContext>
+        <local:LaptopViewModel></local:LaptopViewModel>
+    </ContentPage.BindingContext>
+
+    <Border>
+        <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="600">
+            <Image Source="laptop.png" WidthRequest="100" HeightRequest="100"></Image>
+            <Label Text="Macbook air m1"></Label>
+            <Label Text="Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID."></Label>
+            <Label Text="$999"></Label>
+        </VerticalStackLayout>
+        <Border.GestureRecognizers>
+            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+        </Border.GestureRecognizers>
+    </Border>
+
+  
+   
+
+</ContentPage>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopingApp.View.Laptop1DetailPage"
+             BackgroundColor="White"
+             Title="Laptop1DetailPage">
+    <VerticalStackLayout BackgroundColor="SkyBlue">
+        <Image Source="laptop.png" HorizontalOptions="Center" WidthRequest="300" HeightRequest="300"></Image>
+        <Label Text="MacBook air m1"></Label>
+        <Label Text="Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Gold"></Label>
+        <Label Text="$999"></Label>
+        <Button Text="Buy Now" HorizontalOptions="Center"></Button>
+
+
+        <VerticalStackLayout VerticalOptions="End" BackgroundColor="Gray" WidthRequest="200">
+            <Label Text="Gamana Solutions LLP"></Label>
+        </VerticalStackLayout>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>

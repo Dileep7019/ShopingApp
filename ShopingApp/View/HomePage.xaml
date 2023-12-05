@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopingApp.View.HomePage"
+             Title="HomePage">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Button x:Name="laptosp" Text="laptops" Clicked="laptosp_Clicked"></Button>
+            <Button x:Name="compu" Text="computer" Clicked="compu_Clicked"></Button>
+         </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
